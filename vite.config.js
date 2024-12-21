@@ -10,10 +10,6 @@ export default defineConfig({
   })],
 
   build: {
-    sourcemap: true,
-    rollupOptions: {
-      external: [],
-    },
-
+    sourcemap: true
   }
 })
